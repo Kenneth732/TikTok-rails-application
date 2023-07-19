@@ -4,4 +4,10 @@ class VideosController < ApplicationController
         render json: videos 
     end
 
+    def show
+        video = Video.find_by(id: params[:id])
+        render json: video
+    end
+
+
 end
