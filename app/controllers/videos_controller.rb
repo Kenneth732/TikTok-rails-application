@@ -9,5 +9,9 @@ class VideosController < ApplicationController
         render json: video
     end
 
+    def create
+        video = Video.create(video_params)
+        render json: video, status: :created
+    end
 
 end
