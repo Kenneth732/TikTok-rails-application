@@ -20,5 +20,15 @@ Video.create([
         category: "Drama",
         discount: false,
         female_director: true
+    },
+    {
+        title: "Queen of Katwe",
+        year: 2016,
+        length: 144,
+        director: "Mira Nair",
+        description: "Disney has a way of making us feel like pawns in a game of Let's See How Hard We Can Make Them Cry. But that's not the case with Mira Nair's feel-good drama about a Uganda girl's path to chess champ, adapted from an ESPN sports essay. Moms and dads, you want your daughters to grow up to be chess champions.",
+        movie_file: "./movies/p3.mp4",
+        discount: false,
+        female_director: true
     }
 ])
