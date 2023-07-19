@@ -14,4 +14,9 @@ class VideosController < ApplicationController
         render json: video, status: :created
     end
 
+    private 
+
+    def video_params
+        params.permit(:name, :special)
+    end
 end
